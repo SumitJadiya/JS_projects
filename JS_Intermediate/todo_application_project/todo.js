@@ -91,5 +91,4 @@ function removeItem() {
             ul.removeChild(li[index])
         }
     }
-
 }
