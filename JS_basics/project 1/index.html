@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project Using DOM Elements</title>
+    <style>
+      .active {
+        background-color: bisque;
+      }
+
+      #my-list li {
+        width: 20%;
+        padding: 5px;
+        border-bottom: black;
+      }
+
+      button#my-button {
+        padding: 15px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="my-heading">Title tag - This TAG will be changed by list items</h2>
+    <hr />
+    <h3>List Items</h3>
+    <button type="button" id="my-button">Add List Item</button>
+    <ul id="my-list">
+      <li>First List Item</li>
+      <li>Second List Item</li>
+      <li>Third List Item</li>
+      <li>Fourth List Item</li>
+      <li>Fifth List Item</li>
+      <li>Sixth List Item</li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
